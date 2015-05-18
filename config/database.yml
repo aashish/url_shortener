@@ -1,0 +1,19 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: url_shortener_dev
+  username: postgres
+  password: postgres
+  host: localhost
+production: 
+  adapter: postgresql
+  encoding: unicode
+  database: infiniteach_dev
+  username: postgres
+  password: postgres
+  host: localhost
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: affluence_test
+  username: <%= ENV['USER'] %>
