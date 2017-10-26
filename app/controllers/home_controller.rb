@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
- def index
+  def index
     @link = Link.new
-    @top_links = Link.order(:created_at => :desc).page params[:page]
-  end
+    @top_links = Link.order(created_at: :desc).page params[:page]
+   end
 end

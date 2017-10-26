@@ -1,3 +1,4 @@
+# links controller
 class LinksController < ApplicationController
   before_action :set_link, only: [:show]
 
@@ -33,6 +34,7 @@ class LinksController < ApplicationController
   end
 
   private
+
   def set_link
     @link = Link.find_by(slug: params[:slug])
   end
@@ -41,6 +43,3 @@ class LinksController < ApplicationController
     params.require(:link).permit(:given_url)
   end
 end
-
-  
-                

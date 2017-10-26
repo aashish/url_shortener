@@ -5,13 +5,13 @@
         <th>Given url</th>
         <th>Short Link</th>
         <th>Clicks</th>
-        <th>  </th>
+        <th></th>
         <th></th>
         <th></th>
       </tr>
     </thead>
 
-    <tbody>
+    <tbody class="links-data">
       <%  @top_links.each do |link| %>
         <tr>
           <td><%= link.given_url %></td>
@@ -22,5 +22,5 @@
       <% end %>
     </tbody>
   </table>
-</div>  
+</div>
 <%=  paginate @top_links %>
