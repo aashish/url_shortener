@@ -1,28 +1,7 @@
-== README
+# Url Shortener
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Url Shortener is a Web application using Ruby on Rails 4.x. This application will shorten the provided url.
 
-Things you may want to cover:
+## Usage
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Live demo application is at https://url-shortener-pro.herokuapp.com/
