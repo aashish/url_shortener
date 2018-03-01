@@ -23,7 +23,9 @@ class LinksController < ApplicationController
     @link.clicks = 1
     respond_to do |format|
       if @link.save
-        format.html { redirect_to root_path, notice: 'Link was successfully created.' }
+        format.html do
+          redirect_to root_path, notice: 'Link was successfully created.'
+        end
         format.js
         format.json { render action: 'show', status: :created, location: @link }
       else

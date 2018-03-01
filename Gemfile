@@ -43,6 +43,6 @@ group :development, :test do
   gem 'rubocop'
 end
 
-gem 'jquery-validation-rails'
 gem 'bootstrap-sass', '~> 3.2.0'
+gem 'jquery-validation-rails'
 gem 'kaminari-bootstrap', '~> 3.0.1'
